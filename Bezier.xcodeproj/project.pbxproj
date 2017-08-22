@@ -11,7 +11,12 @@
 		0083BCF11F48E3E100A4B460 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083BCF01F48E3E100A4B460 /* ViewController.swift */; };
 		0083BCF41F48E3E100A4B460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0083BCF21F48E3E100A4B460 /* Main.storyboard */; };
 		0083BCF61F48E3E100A4B460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0083BCF51F48E3E100A4B460 /* Assets.xcassets */; };
-		0083BCF91F48E3E100A4B460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0083BCF71F48E3E100A4B460 /* LaunchScreen.storyboard */; };
+		0083BD011F48F09100A4B460 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0083BD001F48F09100A4B460 /* circle.png */; };
+		0083BD031F48F21600A4B460 /* BezierShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083BD021F48F21600A4B460 /* BezierShape.swift */; };
+		9B9C4A721F4C5AFB00BE3240 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C4A711F4C5AFB00BE3240 /* Default-568h@2x.png */; };
+		9B9C4A741F4C680C00BE3240 /* bouton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C4A731F4C680C00BE3240 /* bouton.png */; };
+		9B9C4A761F4C6C4900BE3240 /* KaushanScript-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B9C4A751F4C6C4900BE3240 /* KaushanScript-Regular.otf */; };
+		9B9C4A781F4CA39100BE3240 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C4A771F4CA39100BE3240 /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +25,13 @@
 		0083BCF01F48E3E100A4B460 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0083BCF31F48E3E100A4B460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0083BCF51F48E3E100A4B460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0083BCF81F48E3E100A4B460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0083BCFA1F48E3E100A4B460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0083BD001F48F09100A4B460 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = circle.png; path = images/circle.png; sourceTree = "<group>"; };
+		0083BD021F48F21600A4B460 /* BezierShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierShape.swift; sourceTree = "<group>"; };
+		9B9C4A711F4C5AFB00BE3240 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B9C4A731F4C680C00BE3240 /* bouton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton.png; path = images/bouton.png; sourceTree = "<group>"; };
+		9B9C4A751F4C6C4900BE3240 /* KaushanScript-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KaushanScript-Regular.otf"; path = "fonts/KaushanScript-Regular.otf"; sourceTree = "<group>"; };
+		9B9C4A771F4CA39100BE3240 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,7 @@
 		0083BCE21F48E3E100A4B460 = {
 			isa = PBXGroup;
 			children = (
+				9B9C4A711F4C5AFB00BE3240 /* Default-568h@2x.png */,
 				0083BCED1F48E3E100A4B460 /* Bezier */,
 				0083BCEC1F48E3E100A4B460 /* Products */,
 			);
@@ -54,11 +65,15 @@
 		0083BCED1F48E3E100A4B460 /* Bezier */ = {
 			isa = PBXGroup;
 			children = (
+				9B9C4A751F4C6C4900BE3240 /* KaushanScript-Regular.otf */,
+				9B9C4A731F4C680C00BE3240 /* bouton.png */,
+				0083BD001F48F09100A4B460 /* circle.png */,
 				0083BCEE1F48E3E100A4B460 /* AppDelegate.swift */,
 				0083BCF01F48E3E100A4B460 /* ViewController.swift */,
+				0083BD021F48F21600A4B460 /* BezierShape.swift */,
+				9B9C4A771F4CA39100BE3240 /* Math.swift */,
 				0083BCF21F48E3E100A4B460 /* Main.storyboard */,
 				0083BCF51F48E3E100A4B460 /* Assets.xcassets */,
-				0083BCF71F48E3E100A4B460 /* LaunchScreen.storyboard */,
 				0083BCFA1F48E3E100A4B460 /* Info.plist */,
 			);
 			path = Bezier;
@@ -122,9 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0083BCF91F48E3E100A4B460 /* LaunchScreen.storyboard in Resources */,
 				0083BCF61F48E3E100A4B460 /* Assets.xcassets in Resources */,
 				0083BCF41F48E3E100A4B460 /* Main.storyboard in Resources */,
+				9B9C4A721F4C5AFB00BE3240 /* Default-568h@2x.png in Resources */,
+				0083BD011F48F09100A4B460 /* circle.png in Resources */,
+				9B9C4A741F4C680C00BE3240 /* bouton.png in Resources */,
+				9B9C4A761F4C6C4900BE3240 /* KaushanScript-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0083BCF11F48E3E100A4B460 /* ViewController.swift in Sources */,
+				0083BD031F48F21600A4B460 /* BezierShape.swift in Sources */,
 				0083BCEF1F48E3E100A4B460 /* AppDelegate.swift in Sources */,
+				9B9C4A781F4CA39100BE3240 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +169,6 @@
 				0083BCF31F48E3E100A4B460 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0083BCF71F48E3E100A4B460 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0083BCF81F48E3E100A4B460 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -273,12 +285,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QTZR8E755P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bezier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geneau.Bezier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -287,12 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = QTZR8E755P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Bezier/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geneau.Bezier;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
